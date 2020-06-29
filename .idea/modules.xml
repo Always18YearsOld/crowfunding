@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/alipay.trade.page.pay-JAVA-UTF-8/alipay.trade.page.pay-JAVA-UTF-8.iml" filepath="$PROJECT_DIR$/alipay.trade.page.pay-JAVA-UTF-8/alipay.trade.page.pay-JAVA-UTF-8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/component/component.iml" filepath="$PROJECT_DIR$/parent/component/component.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crowfunding.iml" filepath="$PROJECT_DIR$/crowfunding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/entry/entry.iml" filepath="$PROJECT_DIR$/parent/entry/entry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-parent/member-api/member-api.iml" filepath="$PROJECT_DIR$/member-parent/member-api/member-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-parent/member-authentication-consumer/member-authentication-consumer.iml" filepath="$PROJECT_DIR$/member-parent/member-authentication-consumer/member-authentication-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-parent/member-entity/member-entity.iml" filepath="$PROJECT_DIR$/member-parent/member-entity/member-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-parent/member-eureka/member-eureka.iml" filepath="$PROJECT_DIR$/member-parent/member-eureka/member-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-parent/member-mysql-provider/member-mysql-provider.iml" filepath="$PROJECT_DIR$/member-parent/member-mysql-provider/member-mysql-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-parent/member-order-consumer/member-order-consumer.iml" filepath="$PROJECT_DIR$/member-parent/member-order-consumer/member-order-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-parent/member-parent.iml" filepath="$PROJECT_DIR$/member-parent/member-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-parent/member-pay-consumer/member-pay-consumer.iml" filepath="$PROJECT_DIR$/member-parent/member-pay-consumer/member-pay-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-parent/member-project-consumer/member-project-consumer.iml" filepath="$PROJECT_DIR$/member-parent/member-project-consumer/member-project-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-parent/member-redis-provider/member-redis-provider.iml" filepath="$PROJECT_DIR$/member-parent/member-redis-provider/member-redis-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/member-parent/member-zuul/member-zuul.iml" filepath="$PROJECT_DIR$/member-parent/member-zuul/member-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/parent.iml" filepath="$PROJECT_DIR$/parent/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reverse/reverse.iml" filepath="$PROJECT_DIR$/reverse/reverse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/short-message/short-message.iml" filepath="$PROJECT_DIR$/short-message/short-message.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-annotation/spring-annotation.iml" filepath="$PROJECT_DIR$/spring-annotation/spring-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-session-a/spring-session-a.iml" filepath="$PROJECT_DIR$/spring-session-a/spring-session-a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-session-b/spring-session-b.iml" filepath="$PROJECT_DIR$/spring-session-b/spring-session-b.iml" />
+      <module fileurl="file://$PROJECT_DIR$/util/util.iml" filepath="$PROJECT_DIR$/util/util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/webui/webui.iml" filepath="$PROJECT_DIR$/parent/webui/webui.iml" />
+    </modules>
+  </component>
+</project>

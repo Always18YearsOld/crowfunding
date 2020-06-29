@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/parent/webui/src/main/resources/mybatis/mapper/AdminMapper.xml" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/project_crowd.sql" dialect="MySQL" />
+  </component>
+</project>

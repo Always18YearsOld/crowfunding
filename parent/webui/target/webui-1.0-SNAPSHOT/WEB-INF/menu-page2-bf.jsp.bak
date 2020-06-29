@@ -1,0 +1,113 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
+<html lang="zh_CN">
+<%@include file="/WEB-INF/include-head.jsp" %>
+<%--//zTree引入--%>
+<link rel="stylesheet" href="ztree/zTreeStyle.css"/>
+<script type="text/javascript" src="ztree/jquery.ztree.all-3.5.min.js"></script>
+<script type="text/javascript">
+    $(function () {
+
+        var setting = { };
+
+        var zNodes=[
+            {
+                name: "父节点1-开", open: true,
+                children: [
+                    {
+                        name:"父节点11-折叠",
+                        children:[
+                            {name:"页子节点111"},
+                            {name:"页子节点112"},
+                            {name:"页子节点113"},
+                            {name:"页子节点114"}
+                        ]
+                    },
+                    {
+                        name:"父节点12-折叠",
+                        children:[
+                            {name:"页子节点121"},
+                            {name:"页子节点122"},
+                            {name:"页子节点123"},
+                            {name:"页子节点124"}
+                        ]
+                    },
+                    {
+                        name:"父节点13-折叠",
+                        children:[
+                            {name:"页子节点131"},
+                            {name:"页子节点132"},
+                            {name:"页子节点133"},
+                            {name:"页子节点134"}
+                        ]
+                    },
+                    { name:"父节点13 -没有子节点",isParent: true}
+                ]
+            },
+            {
+                name: "父节点2-开", open: true,
+                children: [
+                    {
+                        name:"父节点21-折叠",
+                        children:[
+                            {name:"页子节点211"},
+                            {name:"页子节点212"},
+                            {name:"页子节点213"},
+                            {name:"页子节点214"}
+                        ]
+                    },
+                    {
+                        name:"父节点22-折叠",
+                        children:[
+                            {name:"页子节点221"},
+                            {name:"页子节点222"},
+                            {name:"页子节点223"},
+                            {name:"页子节点224"}
+                        ]
+                    },
+                    {
+                        name:"父节点23-折叠",
+                        children:[
+                            {name:"页子节点231"},
+                            {name:"页子节点232"},
+                            {name:"页子节点233"},
+                            {name:"页子节点234"}
+                        ]
+                    }
+                ]
+            },
+            { name:"父节点3 -没有子节点",isParent: true}
+        ];
+        //初始化树结构
+        //     ,不要写成.
+            $.fn.zTree.init($("#treeDemo"),setting,zNodes);
+
+
+    })
+</script>
+<body>
+
+<%@include file="/WEB-INF/include-nav.jsp" %>
+<div class="container-fluid">
+    <div class="row">
+        <%@include file="/WEB-INF/include-sidebar.jsp" %>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+
+            <div class="panel panel-default">
+                <div class="panel-heading"><i class="glyphicon glyphicon-th-list"></i> 权限菜单列表
+                    <div style="float:right;cursor:pointer;" data-toggle="modal" data-target="#myModal"><i
+                            class="glyphicon glyphicon-question-sign"></i></div>
+                </div>
+                <div class="panel-body">
+                    <%--ztree动态节点依附的静态节点--%>
+                    <ul id="treeDemo" class="ztree"></ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</div>
+
+</body>
+</html>

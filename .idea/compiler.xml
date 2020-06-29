@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="component" />
+        <module name="entry" />
+        <module name="member-api" />
+        <module name="member-authentication-consumer" />
+        <module name="member-entity" />
+        <module name="member-eureka" />
+        <module name="member-mysql-provider" />
+        <module name="member-order-consumer" />
+        <module name="member-pay-consumer" />
+        <module name="member-project-consumer" />
+        <module name="member-redis-provider" />
+        <module name="member-zuul" />
+        <module name="reverse" />
+        <module name="short-message" />
+        <module name="spring-annotation" />
+        <module name="spring-session-a" />
+        <module name="spring-session-b" />
+        <module name="util" />
+        <module name="webui" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="component" target="12" />
+      <module name="crowd-parent" target="12" />
+      <module name="entity" target="12" />
+      <module name="entry" target="12" />
+      <module name="member-api" target="12" />
+      <module name="member-authentication-consumer" target="12" />
+      <module name="member-entity" target="12" />
+      <module name="member-eureka" target="12" />
+      <module name="member-mysql-provider" target="12" />
+      <module name="member-order-consumer" target="12" />
+      <module name="member-parent" target="12" />
+      <module name="member-pay-consumer" target="12" />
+      <module name="member-project-consumer" target="12" />
+      <module name="member-redis-provider" target="12" />
+      <module name="member-zuul" target="12" />
+      <module name="parent" target="12" />
+      <module name="reverse" target="12" />
+      <module name="short-message" target="12" />
+      <module name="spring-annotation" target="12" />
+      <module name="spring-session-a" target="12" />
+      <module name="spring-session-b" target="12" />
+      <module name="springannotation" target="12" />
+      <module name="util" target="12" />
+      <module name="webui" target="12" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

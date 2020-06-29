@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/alipay.trade.page.pay-JAVA-UTF-8/WebContent/WEB-INF/lib/commons-logging-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/alipay.trade.page.pay-JAVA-UTF-8/WebContent/WEB-INF/lib/alipay-sdk-java20170324180803.jar!/" />
+      <root url="file://$PROJECT_DIR$/alipay.trade.page.pay-JAVA-UTF-8/WebContent/WEB-INF/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/alipay.trade.page.pay-JAVA-UTF-8/WebContent/WEB-INF/lib/alipay-sdk-java20170324180803-source.jar!/com/alipay/api" />
+      <root url="file://$PROJECT_DIR$/alipay.trade.page.pay-JAVA-UTF-8/WebContent/WEB-INF/lib" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/alipay.trade.page.pay-JAVA-UTF-8/WebContent/WEB-INF/lib" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/alipay.trade.page.pay-JAVA-UTF-8/WebContent/WEB-INF/lib" recursive="false" type="SOURCES" />
+  </library>
+</component>
